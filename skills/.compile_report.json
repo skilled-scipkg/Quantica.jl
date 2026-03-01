@@ -1,0 +1,264 @@
+{
+  "compile_memory_path": "skills/.evidence/memory.md",
+  "compiled_package_id": "quantica-jl",
+  "evidence": {
+    "core_skills": [
+      "quantica-jl-inputs-and-modeling",
+      "quantica-jl-examples-and-tutorials",
+      "quantica-jl-api-and-scripting",
+      "quantica-jl-src",
+      "quantica-jl-build-and-install"
+    ],
+    "evidence_dir": "skills/.evidence",
+    "files": [
+      "skills/.evidence/quantica-jl-inputs-and-modeling.md",
+      "skills/.evidence/quantica-jl-examples-and-tutorials.md",
+      "skills/.evidence/quantica-jl-api-and-scripting.md",
+      "skills/.evidence/quantica-jl-src.md",
+      "skills/.evidence/quantica-jl-build-and-install.md"
+    ]
+  },
+  "generation": {
+    "docs_only": false,
+    "generator_script": "sci-skills-generator/scripts/generate_skills_folder.py",
+    "max_skills": 30,
+    "return_code": 0,
+    "status": "ok"
+  },
+  "mode": "compile",
+  "pass_scope_diffs": {
+    "pass_2": {
+      "added": [],
+      "changed": [
+        "skills/quantica-jl-api-and-scripting/SKILL.md",
+        "skills/quantica-jl-build-and-install/SKILL.md",
+        "skills/quantica-jl-examples-and-tutorials/SKILL.md",
+        "skills/quantica-jl-inputs-and-modeling/SKILL.md",
+        "skills/quantica-jl-src/SKILL.md"
+      ],
+      "deleted": [],
+      "modified": [
+        "skills/quantica-jl-api-and-scripting/SKILL.md",
+        "skills/quantica-jl-build-and-install/SKILL.md",
+        "skills/quantica-jl-examples-and-tutorials/SKILL.md",
+        "skills/quantica-jl-inputs-and-modeling/SKILL.md",
+        "skills/quantica-jl-src/SKILL.md"
+      ]
+    },
+    "pass_3": {
+      "added": [
+        "skills/.compile_report.json",
+        "skills/.evidence/memory.md"
+      ],
+      "changed": [
+        "skills/.compile_report.json",
+        "skills/.evidence/memory.md",
+        "skills/quantica-jl-api-and-scripting/SKILL.md",
+        "skills/quantica-jl-api-and-scripting/references/doc_map.md",
+        "skills/quantica-jl-api-and-scripting/references/source_map.md",
+        "skills/quantica-jl-build-and-install/SKILL.md",
+        "skills/quantica-jl-build-and-install/references/doc_map.md",
+        "skills/quantica-jl-build-and-install/references/source_map.md",
+        "skills/quantica-jl-examples-and-tutorials/SKILL.md",
+        "skills/quantica-jl-examples-and-tutorials/references/doc_map.md",
+        "skills/quantica-jl-examples-and-tutorials/references/source_map.md",
+        "skills/quantica-jl-index/SKILL.md",
+        "skills/quantica-jl-inputs-and-modeling/SKILL.md",
+        "skills/quantica-jl-inputs-and-modeling/references/doc_map.md",
+        "skills/quantica-jl-inputs-and-modeling/references/source_map.md",
+        "skills/quantica-jl-src/SKILL.md",
+        "skills/quantica-jl-src/references/doc_map.md",
+        "skills/quantica-jl-src/references/source_map.md"
+      ],
+      "deleted": [],
+      "modified": [
+        "skills/quantica-jl-api-and-scripting/SKILL.md",
+        "skills/quantica-jl-api-and-scripting/references/doc_map.md",
+        "skills/quantica-jl-api-and-scripting/references/source_map.md",
+        "skills/quantica-jl-build-and-install/SKILL.md",
+        "skills/quantica-jl-build-and-install/references/doc_map.md",
+        "skills/quantica-jl-build-and-install/references/source_map.md",
+        "skills/quantica-jl-examples-and-tutorials/SKILL.md",
+        "skills/quantica-jl-examples-and-tutorials/references/doc_map.md",
+        "skills/quantica-jl-examples-and-tutorials/references/source_map.md",
+        "skills/quantica-jl-index/SKILL.md",
+        "skills/quantica-jl-inputs-and-modeling/SKILL.md",
+        "skills/quantica-jl-inputs-and-modeling/references/doc_map.md",
+        "skills/quantica-jl-inputs-and-modeling/references/source_map.md",
+        "skills/quantica-jl-src/SKILL.md",
+        "skills/quantica-jl-src/references/doc_map.md",
+        "skills/quantica-jl-src/references/source_map.md"
+      ]
+    }
+  },
+  "passes": [
+    {
+      "pass": 1,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 2,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 3,
+      "return_code": 0,
+      "status": "ok"
+    }
+  ],
+  "profile": {
+    "docs_dirs": [
+      "docs/src"
+    ],
+    "docs_only": false,
+    "notes": [
+      "Project.toml package name is Quantica.",
+      "Tutorial material is under docs/src/tutorial (not a top-level tutorials directory).",
+      "Examples are primarily documentation pages (for example docs/src/examples.md), not a separate examples/ folder.",
+      "Generator script was minimally patched for this layout (fixed f-string syntax and added Julia .jl source detection)."
+    ],
+    "package_name": "quantica-jl",
+    "profile_path": "skills/.compile_profile.json",
+    "profile_source": "file",
+    "source_dirs": [
+      "src",
+      "ext"
+    ],
+    "test_dirs": [
+      "test"
+    ],
+    "tutorial_dirs": [
+      "docs/src/tutorial"
+    ],
+    "warnings": []
+  },
+  "project_root": "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/quantica-jl-quantica-jl",
+  "run_id": "compile_20260301T074130140057Z",
+  "skill_plan": {
+    "available_skill_ids": [
+      "quantica-jl-api-and-scripting",
+      "quantica-jl-build-and-install",
+      "quantica-jl-examples-and-tutorials",
+      "quantica-jl-index",
+      "quantica-jl-inputs-and-modeling",
+      "quantica-jl-src"
+    ],
+    "core_skill_ids": [
+      "quantica-jl-inputs-and-modeling",
+      "quantica-jl-examples-and-tutorials",
+      "quantica-jl-api-and-scripting",
+      "quantica-jl-src",
+      "quantica-jl-build-and-install"
+    ],
+    "deferred_gaps": [
+      "No standalone examples/ directory; ensure examples coverage is pulled from docs/src/examples.md and tutorial pages during enrichment.",
+      "Optional plotting extensions live under ext/ and may need explicit routing notes if Makie backends are missing.",
+      "Parallel/HPC guidance appears limited in current docs set; decide in pass 3 whether a dedicated HPC skill is warranted."
+    ],
+    "goal": "Generate and refine a docs-first Quantica.jl skills set with strong routing over tutorial, API, and solver workflows.",
+    "mode": "compile",
+    "priority_skills": [
+      {
+        "action": "create",
+        "must_cover": [
+          "Skill selection by user intent (install, modeling, solvers, observables, API)",
+          "Docs-first escalation policy before source inspection",
+          "Cross-links to all high-signal topic skills"
+        ],
+        "reason": "Top-level router is required to keep responses focused and dispatch to topic skills.",
+        "skill_id": "quantica-jl-index",
+        "source_hints": [
+          "docs/src/index.md",
+          "docs/make.jl"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "Julia package install and optional plotting backend setup",
+          "Minimal first model run path",
+          "Common environment/version checks"
+        ],
+        "reason": "Installation and first-run setup are common entry points and should be standardized.",
+        "skill_id": "quantica-jl-src",
+        "source_hints": [
+          "README.md",
+          "docs/src/index.md",
+          "Project.toml"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "Lattice and model construction patterns",
+          "Hamiltonian assembly conventions",
+          "Parameterization and model composition pitfalls"
+        ],
+        "reason": "Core user value is building lattice/model/Hamiltonian definitions correctly.",
+        "skill_id": "quantica-jl-inputs-and-modeling",
+        "source_hints": [
+          "docs/src/tutorial/lattices.md",
+          "docs/src/tutorial/models.md",
+          "docs/src/tutorial/hamiltonians.md",
+          "src/lattice.jl",
+          "src/models.jl",
+          "src/hamiltonian.jl"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "Where to find function-level API docs",
+          "REPL docstring usage patterns",
+          "Mapping high-level docs to source entry points"
+        ],
+        "reason": "API lookup and docstring navigation are frequent requests for advanced users.",
+        "skill_id": "quantica-jl-api-and-scripting",
+        "source_hints": [
+          "docs/src/api.md",
+          "src/Quantica.jl",
+          "src/docstrings.jl"
+        ]
+      }
+    ],
+    "version": 1,
+    "warnings": []
+  },
+  "skill_plan_path": "skills/.evidence/skill_plan.json",
+  "validation": {
+    "core_skills_checked": [
+      "quantica-jl-src",
+      "quantica-jl-inputs-and-modeling",
+      "quantica-jl-examples-and-tutorials",
+      "quantica-jl-build-and-install",
+      "quantica-jl-api-and-scripting"
+    ],
+    "docs_only": false,
+    "errors": [
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/quantica-jl-quantica-jl/skills/quantica-jl-src/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/quantica-jl-quantica-jl/skills/quantica-jl-inputs-and-modeling/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/quantica-jl-quantica-jl/skills/quantica-jl-examples-and-tutorials/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/quantica-jl-quantica-jl/skills/quantica-jl-build-and-install/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/quantica-jl-quantica-jl/skills/quantica-jl-api-and-scripting/SKILL.md: playbook missing required element containing 'convergence/validation'."
+    ],
+    "index_skills": [
+      "quantica-jl-index"
+    ],
+    "missing_planned_skills": [],
+    "ok": false,
+    "planned_skill_ids": [
+      "quantica-jl-index",
+      "quantica-jl-src",
+      "quantica-jl-inputs-and-modeling",
+      "quantica-jl-api-and-scripting"
+    ],
+    "previous_source_inventory": {},
+    "skills_total": 6,
+    "source_inventory": {},
+    "source_links_total": 39,
+    "topic_skills": 5,
+    "warnings": []
+  }
+}
